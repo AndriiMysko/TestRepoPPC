@@ -3,4 +3,14 @@ rvm: 2.6.3
 jobs:
   include:
     - stage: "sleep 109"
-      script: sleep 10
+      script: sleep 60
+    - stage: "sleep 109:2"
+      script: sleep 60
+    - stage: "sleep 109:3"
+      script: sleep 60
+    - stage: "sleep 109:4"
+      script: sleep 60
+    - stage: "sleep 109:5"
+      script: sleep 60
+    - stage: "sleep 109:6"
+      script: sleep 60
