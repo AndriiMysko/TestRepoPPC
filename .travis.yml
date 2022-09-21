@@ -1,5 +1,6 @@
 os: linux
-rvm: 2.6.3
+dist: focal
+group: edge
 jobs:
   include:
     - stage: "sleep 109"
