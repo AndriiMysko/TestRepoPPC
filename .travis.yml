@@ -4,7 +4,7 @@ group: edge
 env:
   global:
     # FOO
-    - secure: "YoOKFb0hg/3kwA2H93tqmt/ezrOdhCk6WIBSTzA4hYC3o6pgmlvwSC5oaI+oTFKGh2pEDaxykBZ+hRfaUkNgnDIquaqTTtH0FjzO5VGRMSpXvMDABzGOgdBt3LvyG1GjxjnNEO1btfXsQFPp6yJiLctTv0c9XDnwJLi0abZgPWzUnS1Xn6iDLE/qH3mcF81til5FiMyp1o33nIb1VDdSJBlNi57yogaUrTCp0C1WghKVYIG9kqY2hPFJqNDOessngU0XYrog3dNYeN6o1c++mEnfWXnPGSdiuGEcBMuE1TzvUeDlC3J67+bVg6ohSfFZe10qeAKzkT7fslMUhMJ0DRpxMLvQk8Sy7LHqqfn7n6/JtAD2gBH5Kg8wPd4bMF8J1I6prx9m8PnhGD5qgiBC85hIQxpRoqNmiHkd3hWeo0I4X0SDBAwrRjutFi3ZjHPndCnlU15VhPILE/ARN1weyCeUce/G6jE7kCfDEhj9w9tm1pMm88yoc18zvOYzyTB2sz7jiKG8h2PCwRnMafSrVUrqO90EhuGiB16wxQzEFFirWynM2iXDBu00fje9JOfHTGiycD6UDRUGhzCMdLbDcgCO4aP5lr3pGQGi2cUBf+KNmzJbHx+WbU/4VSh2zB/3mwsDYnTV7/6xodOGyrcTVe0/3I3Vm9DZjAhJ/2Aqej4="
+    - secure: "BrT4kNop0hw9os7NBQiVj2ZlY2Q0MzZmYTUwNThjZWQ="
 keys:
   - DEV_TEST
 script:
