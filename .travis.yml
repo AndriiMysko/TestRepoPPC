@@ -5,3 +5,4 @@ keys:
   - DEV_TEST
 script:
   - echo $DEV_TEST
+  - echo $TRAVIS_REPO_PRIVATE
