@@ -5,4 +5,4 @@ keys:
   - DEV_TEST
 script:
   - echo $TEST_E
-  - echo $TRAVIS_DEV_TEST
+  - echo $DEV_TEST
