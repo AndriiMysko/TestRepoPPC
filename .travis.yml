@@ -4,5 +4,5 @@ group: edge
 keys:
   - DEV_TEST
 script:
-  - echo $TEST_E | hd
-  - echo $TRAVIS_DEV_TEST | hd
+  - echo $TEST_E
+  - echo $TRAVIS_DEV_TEST
