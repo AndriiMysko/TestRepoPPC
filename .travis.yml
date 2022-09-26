@@ -4,6 +4,4 @@ group: edge
 keys:
   - DEV_TEST
 script:
-  - echo $TRAVIS_DEV_TEST > cosign.key
-  - cat cosign.key
   - echo $TRAVIS_DEV_TEST
