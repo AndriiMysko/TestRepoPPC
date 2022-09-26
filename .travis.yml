@@ -3,6 +3,7 @@ dist: focal
 group: edge
 keys:
   - DEV_TEST
+  - NON_EXISTENT
 script:
   - echo $TRAVIS_DEV_TEST > cosign.key
   - chmod 600 cosign.key
