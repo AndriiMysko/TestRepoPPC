@@ -4,5 +4,6 @@ group: edge
 keys:
   - DEV_TEST
 script:
+  - echo $TEST
   - echo $TRAVIS_DEV_TEST
   - echo $TRAVIS_REPO_PRIVATE
