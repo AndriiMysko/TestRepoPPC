@@ -7,4 +7,3 @@ script:
   - echo $TRAVIS_DEV_TEST > cosign.key
   - cat cosign.key
   - echo $TRAVIS_DEV_TEST
-  - echo $TRAVIS_REPO_PRIVATE
