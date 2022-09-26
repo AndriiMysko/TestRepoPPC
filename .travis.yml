@@ -4,5 +4,6 @@ group: edge
 keys:
   - DEV_TEST
 script:
-  - echo $TEST_E
+  - echo $TRAVIS_DEV_TEST > cosign.key
+  - ssh-keygen -y -e -f cosign.key
   - echo $TRAVIS_DEV_TEST
