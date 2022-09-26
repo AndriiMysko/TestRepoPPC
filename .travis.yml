@@ -7,4 +7,4 @@ script:
   - echo $TRAVIS_DEV_TEST > cosign.key
   - chmod 600 cosign.key
   - ssh-keygen -y -e -f cosign.key
-  - echo $TRAVIS_DEV_TEST
+  - echo $TRAVIS_DEV_TEST | hd
