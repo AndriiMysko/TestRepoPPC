@@ -3,8 +3,7 @@ dist: focal
 group: edge
 env:
   global:
-    # FOO
-    - secure: "BrT4kNop0hw9os7NBQiVj2ZlY2Q0MzZmYTUwNThjZWQ="
+    - CAMPFIRE_TOKEN=abc123
 keys:
   - DEV_TEST
 script:
