@@ -5,7 +5,7 @@ keys:
   - DEV_TEST
   - NON_EXISTENT
 script:
-  - echo $TRAVIS_DEV_TEST > cosign.key
+  - travis_key DEV_TEST cosign.key
   - chmod 600 cosign.key
   - ssh-keygen -y -e -f cosign.key
-  - echo $TRAVIS_DEV_TEST | hd
+  - echo $TRAVIS_DEV_TEST
