@@ -6,4 +6,5 @@ keys:
   - NON_EXISTENT
 script:
   - travis_key DEV_TEST cosign.key
-  - hd cosign.key
+  - chmod 0600 cosign.key
+  - openssl rsa -in file.kkkk -pubout -outform DER | openssl md5 -c
