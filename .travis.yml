@@ -7,4 +7,4 @@ keys:
 script:
   - travis_key DEV_TEST cosign.key
   - chmod 0600 cosign.key
-  - openssl rsa -in file.kkkk -pubout -outform DER | openssl md5 -c
+  - openssl rsa -in cosign.key -pubout -outform DER | openssl md5 -c
