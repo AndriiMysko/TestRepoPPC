@@ -1,6 +1,8 @@
 os: linux
 dist: focal
-language: c
+script:
+  - sleep 5
+  - echo 'OK'
 addons:
   sbom:
     on:
