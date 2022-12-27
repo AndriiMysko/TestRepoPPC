@@ -6,6 +6,8 @@ script:
 addons:
   sbom:
     on:
-      branch: "main"
+      branch: 
+        - "main"
+        - "master"
     run_phase: before_script
     output_format: cyclonedx-json
