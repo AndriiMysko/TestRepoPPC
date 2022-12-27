@@ -5,7 +5,5 @@ script:
   - echo 'OK'
 addons:
   sbom:
-    on:
-      branch: main
     run_phase: before_script
     output_format: cyclonedx-json
