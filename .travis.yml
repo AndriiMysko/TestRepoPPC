@@ -1,11 +1,8 @@
 os: linux
 dist: focal
-group: edge
-keys:
-  - DEV_TEST
-script:
-  - travis_key DEV_TEST cosign.key
-  - chmod 0600 cosign.key
-  - openssl rsa -in cosign.key -pubout -outform DER | openssl md5 -c
-  - echo $TRAVIS_DEV_TEST
-  - echo $TRAVIS_DEV_TEST_NEW
+addons:
+  sbom:
+    on:
+      branch: main
+    run_phase: before_script
+    output_format: cyclonedx-json
