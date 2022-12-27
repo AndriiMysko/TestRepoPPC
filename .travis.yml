@@ -5,5 +5,6 @@ script:
   - echo 'OK'
 addons:
   sbom:
+    all_branches: true
     run_phase: before_script
     output_format: cyclonedx-json
