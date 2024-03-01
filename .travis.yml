@@ -3,11 +3,3 @@ dist: focal
 script:
   - sleep 5
   - echo 'OK'
-addons:
-  sbom:
-    on:
-      branch: 
-        - "main"
-        - "master"
-    run_phase: before_script
-    output_format: cyclonedx-json
